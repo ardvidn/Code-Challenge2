@@ -6,7 +6,7 @@ export default function Product_S() {
       {products.map((Produk) => (
         <div key={Produk.id} className="flex flex-wrap md:w-1/2 lg:1/3 h-[380px] rounded-2xl items-center shadow-2xl mb-10">
           <div className="bg-first h-full w-1/2 rounded-l-2xl">
-            <img src={Produk.url} className="w-[120px] h-[150px] rounded-lg ml-4 mt-20"></img>
+            <img src={Produk.url} alt="image" className="w-[120px] h-[150px] rounded-lg ml-4 mt-20"></img>
           </div>
           <div className="bg-slate-300 h-full w-1/2 rounded-r-2xl flex flex-col justify-center">
             <p className="mb-2 font-bold text-white text-center md:text-sm lg:text-lg">{Produk.package.toUpperCase()}</p>

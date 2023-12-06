@@ -24,19 +24,19 @@ export default function Navbar() {
                   </button>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <a onClick={() => navigate("/srevicepage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <button onClick={() => navigate("/srevicepage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     SERVICES
-                  </a>
+                  </button>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <a onClick={() => navigate("/Testimonypage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <button onClick={() => navigate("/Testimonypage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     TESTIMONY
-                  </a>
+                  </button>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <a onClick={() => navigate("/Teampage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <button onClick={() => navigate("/Teampage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     OUR TEAM
-                  </a>
+                  </button>
                 </li>
               </ul>
             </div>
