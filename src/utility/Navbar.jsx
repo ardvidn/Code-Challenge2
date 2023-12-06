@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../assets/logo 4.png";
+import logo from "../assets/logo_4.png";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
