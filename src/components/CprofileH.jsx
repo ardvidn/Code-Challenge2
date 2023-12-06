@@ -1,5 +1,5 @@
 import FadeIn from "../utility/Fadein";
-import logo from "../assets/logo 4.png";
+import logo from "../assets/logo_4.png";
 
 export default function CprofileH() {
   return (
