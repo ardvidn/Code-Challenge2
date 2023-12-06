@@ -1,5 +1,5 @@
 import Navbar from "../utility/Navbar";
-import logo from "../assets/Logo 4.png";
+import logo from "../assets/Logo_4.png";
 import FadeIn from "../utility/Fadein";
 import foto_team from "../assets/foto_team/team.png";
 import { useNavigate } from "react-router-dom";
