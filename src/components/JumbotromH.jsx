@@ -1,4 +1,4 @@
-import jumbotron_hp_landsape from "../assets/foto_jumbotron/jumbotron-hp-landsacape.png";
+import jumbotron_hp_landsape from "../assets/foto_jumbotron/jumbotron-hp-landsacape-min.png";
 import Navbar from "../utility/Navbar";
 import FadeIn from "../utility/Fadein";
 import { useNavigate } from "react-router-dom";
