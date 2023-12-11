@@ -30,14 +30,14 @@ export default function Navbar() {
                   </Link>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <button to="/Testimonypage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <Link to="/Testimonypage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     TESTIMONY
-                  </button>
+                  </Link>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <button to="/Teampage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <Link to="/Teampage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     OUR TEAM
-                  </button>
+                  </Link>
                 </li>
               </ul>
             </div>
