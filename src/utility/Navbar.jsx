@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../assets/Logo_4.png";
 import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   const navigate = useNavigate();
@@ -19,22 +20,22 @@ export default function Navbar() {
             <div className={`z-0 absolute bg-slate-400 md:bg-transparent pb-8 pt-3 pr-10 mt-4 right-4 rounded-2xl transition-all duration-500 ease-in ${showMini ? `opacity-100` : `opacity-0 md:opacity-100`}`}>
               <ul className="md:flex md:items-center">
                 <li className="md:ml-6 my-4 ml-4">
-                  <button onClick={() => navigate("/Aboutpage")} className="text-white hover:text-first hover:font-bold transition-all cursor-pointer">
+                  <Link to="/Aboutpage" className="text-white hover:text-first hover:font-bold transition-all cursor-pointer">
                     ABOUT
-                  </button>
+                  </Link>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <button onClick={() => navigate("/srevicepage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <Link to="/srevicepage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     SERVICES
-                  </button>
+                  </Link>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <button onClick={() => navigate("/Testimonypage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <button to="/Testimonypage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     TESTIMONY
                   </button>
                 </li>
                 <li className="md:ml-6 my-4 ml-4">
-                  <button onClick={() => navigate("/Teampage")} className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
+                  <button to="/Teampage" className="text-white hover:text-first hover:font-bold transition-all  cursor-pointer">
                     OUR TEAM
                   </button>
                 </li>
